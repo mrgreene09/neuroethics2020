@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -1362,7 +1361,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -1424,6 +1422,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1452,6 +1451,12 @@ summary {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1594,9 +1599,9 @@ Option 2: Stop by Hathorn 106 - I’m happy to meet when my door is open!</p>
 <p><strong>Final Project: 40% total</strong></p>
 <p>The goal of the final project is to give you the opportunity to explore one of the course’s topics in depth, and to express this learning in a manner that is congruent with your background, goals, and talents. The project consists of two parts: a 3-minute “lightning” talk that will be given in the last week of class, and a written piece. The written component can take the form of a traditional research paper (4000-5000 words), or it could be an interdisciplinary piece (examples: a screen play or novella in which characters grapple with a neuroethics-related issue; proposed legislation on a neuroethics-related issue). The grade for the final project will be distributed as:</p>
 <ul>
-<li>10% Project proposal (Due: February 25)<br />
+<li>10% Project proposal (Due: March 3)<br />
 </li>
-<li>10% Project rubric (Due: March 6)</li>
+<li>10% Project rubric (Due: March 10)</li>
 <li>10% Lightning talk (Given April 7 and 9)</li>
 <li>10% Final written product (Due: April 9)</li>
 </ul>
